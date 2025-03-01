@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root {
+    --oldgold:#846206;
+} */
+
+body {
+    background-image: url(./Imagens/banners/vin-banner.png);
+    /* background-image: url(./Imagens/banners/veludo.png); */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+section.topo {
+    height: 240px;
+    /* border: solid 2px blue; */
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+section.rodape {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: solid 2px greenyellow; */
+    padding: 5px;
+}
+
+div.pgto {
+    display: block;
+}
+
+div.icones_pgto {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+img.icone_logo {
+    width: 96px;
+}
+
+div.home {
+    display: flex;
+    justify-content: right;
+}
+
+img.icone_home {
+    width: 100px;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: solid 8px black;
+}
+
+p.fp {
+    color: black;
+    font-weight: bold;
+  }

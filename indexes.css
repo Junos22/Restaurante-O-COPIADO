@@ -1,0 +1,48 @@
+section.corpo {
+  position: absolute;
+  z-index: 2;
+  top: 315px;
+  width: 100%;
+  /* border: solid 2px blue; */
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: yellow;
+  }
+
+  div.menus {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    /* border: solid 3px green; */
+    margin-top: 120px;
+    justify-content: center;
+
+    div.menu1 {
+      display: block;
+      justify-content: center;
+      /* border: solid 2px red; */
+
+      img.ft_menus {
+        width: 150px;
+        height: 150px;
+        border: solid 4px gold;
+        border-radius: 100%;
+        border-style: outset;
+      }
+
+      p {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* ajeitar amanhã */
+img.fundo_corpo {
+  width: 100%;
+}
